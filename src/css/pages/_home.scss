@@ -1,0 +1,195 @@
+/* hero banner */
+.hero{
+    background: url(../img/hero.jpg) center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 72px;
+        line-height: 79px;
+        color: #ffffff;
+        font-weight:bold;
+        text-transform: uppercase;
+        width: 50%;
+        text-align: center;
+        span{
+            display: block;
+            font-size: 18px;
+            line-height: 25px;
+            color: #ffffff;
+            font-weight:300;
+            text-transform: uppercase;
+            text-align: center;
+            padding-top: 30px;
+        }
+    }
+}
+/* resto */
+.resto .wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 100px 34px;
+    .resto-texte{
+        width: 70%;
+        padding-right:120px;
+        h2{
+            font-size: 32px;
+        }
+        h4{
+            margin-bottom: 50px;
+        }
+        h4, p{
+            font-size: 15px;
+            color: $main-color;
+            line-height: 25px;
+            font-weight: 400;
+        }
+    }
+    .resto-info{
+        width: 20%;
+        h5{
+            font-size: 15px;
+            line-height: 21px;
+            font-weight: 400;
+            color: $main-color;
+            margin-bottom: 70px;
+            span{
+                display: block;
+                line-height: 26px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+/* menu */
+.menu .wrapper{
+    padding: 100px 34px;
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 315px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    span.titre{
+        text-align: center;
+        padding-bottom: 30px;
+        margin-top: 40px;
+    }
+    span{
+        font-size: 15px;
+        font-weight: 300;
+        color: $main-color;
+        
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        .col{
+            display: flex;
+            justify-content: space-between;
+            width: 30%;
+            color: $main-color;
+            line-height: 22px;
+            span{
+                display: block;
+            }
+        }
+    }
+}
+/* drinks */
+.drinks{
+    background: url(../img/cascade.jpg) center/cover;
+    height: 100vh;
+    padding: 100px 34px;
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 315px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        span{
+            font-size: 15px;
+            font-weight: 300;
+            color: white;
+            
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+            .col{
+                display: flex;
+                justify-content: space-between;
+                width: 30%;
+                color: white;
+                line-height: 18px;
+                span{
+                    display: block;
+                }
+            }
+        }
+    }
+    
+}
+/* reservations */
+.reservations .wrapper{
+    padding: 100px 34px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h2{
+        font-size: 42px;
+        line-height: 46px;
+        font-weight: bold;
+    }
+    small{
+        font-size: 10px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    a{
+        margin: 30px auto;
+    }
+    span{
+        font-size: 15px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+/* contact */
+.contact{
+    background: #1f1f1f;
+    padding: 30px 0;
+    text-align: center;
+    a{
+        font-size:20px;
+        color:#fff;
+        margin-left: 20px;
+    }
+}
+/* footer */
+.footer{
+    background: #171717;
+    text-align: center;
+    padding: 60px 0 80px;
+    width: 100vw;
+    span{
+        font-size: 12px;
+        line-height: 24px;
+        color: white;
+    }
+    small{
+        font-size: 12px;
+        line-height: 24px;
+        color: gray;
+        display: block;
+        a{
+            font-size: 12px;
+            font-weight: lighter;
+            text-decoration: underline; 
+        }
+    }
+}
+

@@ -1,0 +1,19 @@
+.header{
+    width: 100vw;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    height: 50px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo{
+        width: 200px;
+        margin: 0 45px;
+    }
+    nav a{
+        margin: 0 20px;
+        
+    }
+}
